@@ -44,3 +44,42 @@
    color: white;
    outline: 1px solid red;
 }
+.darkBlue {
+   background-color: #333366;
+}
+.darkGrey {
+   background-color: #545454;
+}
+.lightGrey {
+   background-color: #e3e3e3;
+}
+.white {
+   background-color: #ffffff;
+}
+.lightBlue {
+   background-color: #12a0f6;
+}
+.red {
+   background-color: #f84848;
+}
+.orange {
+   background-color: #fc7705;
+}
+.lightBlue {
+   background-color: #13a0f6;
+}
+.lightGreen {
+   background-color: #8abe48;
+}
+.primary {
+   background-color: #2b459a;
+}
+.success {
+   background-color: #8abe48;
+}
+.danger {
+   background-color: #f84848;
+}
+.warning {
+   background-color: #fc7705;
+}
