@@ -3,7 +3,9 @@
   background-color: lightblue;
   padding: 35px;
 /* Add margin here. */
+  margin: 0 auto;
 /* Add text align below */
+text-align: center;
 }
 
 
