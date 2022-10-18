@@ -20,10 +20,14 @@
   text-align: center;
   height: 50px;
   /* Add the css property transition here! */
+  transition: 0.3s;
 
 }
 /* active state */
 .hoverMe:hover {
   /* Add your hover state css here. */
-
+  background-color: aqua;
+  border: 5px solid purple;
+  transform: translate(-5px, -5px);
+  filter: drop-shadow(5px 5px 0px blue);
 }
