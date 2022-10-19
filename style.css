@@ -1,4 +1,12 @@
-.class {
+.list {
     font-family: Arial, Helvetica, sans-serif;
-    text-align: center;
+    text-align: left;
+}
+li {
+    list-style: none;
+    padding: 10px 30px;
+    background-image: url("/code.png");
+    background-repeat: no-repeat;
+    background-position: left center;
+    background-size: 20px;
 }
