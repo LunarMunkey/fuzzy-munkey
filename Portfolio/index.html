@@ -1,13 +1,135 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 
 <head>
-    <link href="https://fonts.googleapis.com/css?family=Montserrat&display=swap" rel="stylesheet" />
-    <link href="https://fonts.googleapis.com/css?family=Arizonia&display=swap" rel="stylesheet" />
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Arizonia&family=Montserrat:wght@400;500;600;700&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="./style.css">
+    <script src="https://kit.fontawesome.com/644d5df2b2.js" crossorigin="anonymous"></script>
+    <title>Anna Biernacki's Portfolio</title>
 </head>
 
 <body>
-   
+    <header>
+        <div class="container">
+            <nav class="navBar">
+                <img src="./Images/Logox1crop.png" alt="logo">
+                <button class="hamburger" id="hamburger">
+                    <i class="fa-solid fa-bars"></i>
+                    <i class="fa-solid fa-xmark"></i> 
+                </button>
+                <ul class="navUL showMenu" id="navUL">
+                    <li class="navItem homeNavItem" id="home"><a href="#hero" class="homeNavItem navItem">Home</a></li>
+                    <li class="navItem projectsNavItem" id="projects"><a href="#work" class="projectsNavItem navItem">Projects</a></li>
+                    <li class="navItem aboutNavItem" id="about"><a href="#aboutMe" class="aboutNavItem navItem">About</a></li>
+                    <li class="navItem">Resume</li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <section class="hero" id="hero">
+        <div class="content">
+            <h1><span>Anna</span> <span>Biernacki</span></h1>
+            <h4><span class="brackets"> >> </span>UX DESIGNER<span class="brackets"> << </span></h4>
+            <p>St.Paul-based designer, solving problems with beautiful, user-centric experiences that are seamless and impactful.</p>
+        </div>
+        <div class="contact">
+            <a href="mailto:annabiernackicvt@gmail.com" class="icon"><img src="./Images/Email.png" alt="email"></a>
+            <a href="https://www.linkedin.com/in/anna-biernacki/" class="icon"><img src="./Images/Linkedin.png" alt="linkedinLogo"></a>
+        </div>
+    </section>
+    <section class="work" id="work">
+        <h2 class="sectionHeader">PROJECTS</h2>
+        <div class="projects">
+            <div class="caseStudy">
+                <div class="caseImage" id="lifelettersImage">
+                    <img src="./Images/lifeletters-image.png" alt="lifeletters-image">
+                </div>
+                <div class="caseText">
+                    <h3 class="study"><span class="brackets"> >> </span>LIFELETTERS<span class="brackets"> << </span></h3>
+                    <p class="studyText">UX Scene designathon project that focused on building a website experience for senior/elderly users.</p>
+                    <button class="view" id="lifeletters"><span class="brackets"> >> </span>View Case Study<span class="brackets"> << </span></button>
+                </div>
+            </div>
+            <div class="caseStudy" id="caseStudy2">
+                <div class="caseText">
+                    <h3 class="study"><span class="brackets"> >> </span>MARS RESCUE<span class="brackets"> << </span></h3>
+                    <p class="studyText">Group project working directly with a non-profit animal rescue to redesign their website and mobile.</p>
+                    <button class="view" id="mars"><span class="brackets"> >> </span>View Case Study<span class="brackets"> << </span></button>
+                </div>
+                <div class="caseImage" id="marsImage">
+                    <img src="./Images/mars-laptop.png" alt="mars-laptop" id="mars-laptop">
+                    <img src="./Images/mars-mobile.png" alt="mars-mobile" id="mars-mobile">
+                </div>
+            </div>
+            <div class="caseStudy" id="caseStudy3">
+                <div class="caseImage" id="travemoteImage">
+                    <img src="./Images/travemote.png" alt="travemote-mobile">
+                </div>
+                <div class="caseText">
+                    <h3 class="study"><span class="brackets"> >> </span>TRAVEMOTE<span class="brackets"> << </span></h3>
+                    <p class="studyText">First solo project completed during bootcamp connecting love of language and travel based communication into a mobile app.</p>
+                    <button class="view" id="travemote"><span class="brackets"> >> </span>View Case Study<span class="brackets"> << </span></button>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="aboutMe" id="aboutMe">
+        <h2 class="sectionHeader" id="aboutHeader">ABOUT</h2>
+        <div class="about" id="aboutDiv">
+            <div class="aboutTop">
+                <p>Previously a Certified Veterinary Technician, communication and empathy with clients and patients were key. Teamwork was priority for the clinic to run smoothly every day regardless of what came through the door. <br> <br> Taking that passion to help animals without a voice to a design career will make sure that user needs are always spoken for and made into an enjoyable experience while keeping client expectations satisfied.</p>
+            </div>
+            <div class="aboutBottom">
+                <div class="skills">
+                    <h5><span class="brackets"> >> </span>SKILLS<span class="brackets"> << </span></h5>
+                    <div class="skillsList">
+                        <div class="list">
+                            <ul>
+                                <li>Persona Creation</li>
+                                <li>User Interviews</li>
+                                <li>Affinity Diagrams</li>
+                                <li>User Flows</li>
+                                <li>Empathy Mapping</li>
+                            </ul>
+                        </div>
+                        <div class="list">
+                            <ul>
+                                <li>UI Styling</li>
+                                <li>Prototyping</li>
+                                <li>Responsive Design</li>
+                                <li>User Testing</li>
+                                <li>Interactive Design</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="tools">
+                    <h5><span class="brackets"> >> </span>TOOLS<span class="brackets"> << </span></h5>
+                    <div class="toolsList">
+                        <img src="./Images/tools-img.png" alt="tool">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <h2 class="sectionHeader">CONTACT</h2>
+    <footer>
+        <div class="footer">
+            <h5><span class="brackets"> >> </span>ANNABIERNACKICVT<span id="break">@GMAIL.COM</span><span class="brackets"> << </span></h5>
+            <div class="contact">
+                <a href="mailto:annabiernackicvt@gmail.com" class="icon" id="email"><img src="./Images/Email.png" alt="email"></a>
+                <a href="https://www.linkedin.com/in/anna-biernacki/" class="icon" id="linkedin"><img src="./Images/Linkedin.png" alt="linkedinLogo"></a>
+            </div>
+        </div>
+        <p id="copyright">Copyright 2022</p>
+    </footer>
+    <script src="./script.js"></script>
 </body>
 
 </html>
