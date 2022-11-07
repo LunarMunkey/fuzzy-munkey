@@ -9,7 +9,7 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Arizonia&family=Montserrat:wght@400;500;600;700&display=swap"
         rel="stylesheet">
-    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="./CSS/style.css">
     <script src="https://kit.fontawesome.com/644d5df2b2.js" crossorigin="anonymous"></script>
     <title>Anna Biernacki's Portfolio</title>
 </head>
@@ -24,10 +24,10 @@
                     <i class="fa-solid fa-xmark"></i> 
                 </button>
                 <ul class="navUL showMenu" id="navUL">
-                    <li class="navItem homeNavItem" id="home"><a href="#hero" class="homeNavItem navItem">Home</a></li>
-                    <li class="navItem projectsNavItem" id="projects"><a href="#work" class="projectsNavItem navItem">Projects</a></li>
-                    <li class="navItem aboutNavItem" id="about"><a href="#aboutMe" class="aboutNavItem navItem">About</a></li>
-                    <li class="navItem">Resume</li>
+                    <li class="navItem homeNavItem" id="home"><a href="#hero" class="homeNavItem navItem">HOME</a></li>
+                    <li class="navItem projectsNavItem" id="projects"><a href="#work" class="projectsNavItem navItem">PROJECTS</a></li>
+                    <li class="navItem aboutNavItem" id="about"><a href="#aboutMe" class="aboutNavItem navItem">ABOUT</a></li>
+                    <li class="navItem"><button class="resume">RESUME</button></li>
                 </ul>
             </nav>
         </div>
@@ -53,14 +53,14 @@
                 <div class="caseText">
                     <h3 class="study"><span class="brackets"> >> </span>LIFELETTERS<span class="brackets"> << </span></h3>
                     <p class="studyText">UX Scene designathon project that focused on building a website experience for senior/elderly users.</p>
-                    <button class="view" id="lifeletters"><span class="brackets"> >> </span>View Case Study<span class="brackets"> << </span></button>
+                    <a href="https://lunarmunkey.github.io/UX_UI_HW_20/" class="view" id="lifeletters"><span class="brackets"> >> </span>View Case Study<span class="brackets"> << </span></a>
                 </div>
             </div>
             <div class="caseStudy" id="caseStudy2">
                 <div class="caseText">
                     <h3 class="study"><span class="brackets"> >> </span>MARS RESCUE<span class="brackets"> << </span></h3>
                     <p class="studyText">Group project working directly with a non-profit animal rescue to redesign their website and mobile.</p>
-                    <button class="view" id="mars"><span class="brackets"> >> </span>View Case Study<span class="brackets"> << </span></button>
+                    <a class="view" id="mars"><span class="brackets"> >> </span>View Case Study<span class="brackets"> << </span></a>
                 </div>
                 <div class="caseImage" id="marsImage">
                     <img src="./Images/mars-laptop.png" alt="mars-laptop" id="mars-laptop">
@@ -74,7 +74,7 @@
                 <div class="caseText">
                     <h3 class="study"><span class="brackets"> >> </span>TRAVEMOTE<span class="brackets"> << </span></h3>
                     <p class="studyText">First solo project completed during bootcamp connecting love of language and travel based communication into a mobile app.</p>
-                    <button class="view" id="travemote"><span class="brackets"> >> </span>View Case Study<span class="brackets"> << </span></button>
+                    <a class="view" id="travemote"><span class="brackets"> >> </span>View Case Study<span class="brackets"> << </span></a>
                 </div>
             </div>
         </div>
@@ -118,18 +118,18 @@
             </div>
         </div>
     </section>
-    <h2 class="sectionHeader">CONTACT</h2>
     <footer>
         <div class="footer">
-            <h5><span class="brackets"> >> </span>ANNABIERNACKICVT<span id="break">@GMAIL.COM</span><span class="brackets"> << </span></h5>
+            <h6 class="footHeader">LET'S CONNECT!</h6>
+            <button class="resume">RESUME</button>
             <div class="contact">
                 <a href="mailto:annabiernackicvt@gmail.com" class="icon" id="email"><img src="./Images/Email.png" alt="email"></a>
                 <a href="https://www.linkedin.com/in/anna-biernacki/" class="icon" id="linkedin"><img src="./Images/Linkedin.png" alt="linkedinLogo"></a>
             </div>
         </div>
-        <p id="copyright">Copyright 2022</p>
+        <p id="copyright">Anna Biernacki <i class="fa-regular fa-copyright"></i> 2022</p>
     </footer>
-    <script src="./script.js"></script>
+    <script src="./JS/script.js"></script>
 </body>
 
 </html>
